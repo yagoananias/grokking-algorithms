@@ -7,9 +7,9 @@ def findSmallest(arr):
       smallest_index = i
   return smallest_index
 
-  def selectionSort(arr):
-    newArr = []
-    for i in range(len(arr)):
-      smallest = findSmallest(arr)
-      newArr.append(arr.pop(smallest))
-    return newArr
+def selectionSort(arr):
+  newArr = []
+  for i in range(len(arr)):
+    smallest = findSmallest(arr)
+    newArr.append(arr.pop(smallest))
+  return newArr
